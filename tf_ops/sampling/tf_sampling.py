@@ -3,7 +3,8 @@ Original author: Haoqiang Fan
 Modified by Charles R. Qi
 All Rights Reserved. 2017. 
 '''
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 from tensorflow.python.framework import ops
 import sys
 import os
